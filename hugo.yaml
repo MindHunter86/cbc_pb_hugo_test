@@ -1,0 +1,47 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ghostwriter
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  mainSections:
+    - post
+  intro: true
+  headline:  My First Blog in WWW
+  description: Today we learn how to create your first blog in the Internet
+  github: "https://github.com/"
+  email: "superdeveloper@example.com"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+caches:
+  images:
+    dir: :cacheDir/images
