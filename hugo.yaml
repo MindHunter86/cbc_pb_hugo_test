@@ -1,9 +1,10 @@
-baseURL: https://example.org/
+baseURL: https://mindhunter86.github.io/cbc_pb_hugo_test/
 languageCode: en-us
-title: My New Hugo Site
+title: My First Blog
+copyright: Darth Vader
 theme: ghostwriter
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -23,14 +24,15 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Contact
+      url: /page/contact/
+      weight: 2
+    - name: About
+      url: /page/about/
+      weight: 3
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -41,6 +43,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+permalinks:
+  post: "/:year/:month/:day/:contentbasename/"
 
 caches:
   images:
