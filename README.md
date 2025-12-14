@@ -8,6 +8,7 @@
 5. Go to github.com/yourname/yourrepo/`actions` -> check you last `run`
 6. In last run or in main page of your repo (in aside block) find link to you new blog
 7. OR go to `yourname`.github.com/`yourrepo`/
+8. Optional - Settings -> Leave fork network -> Yes
 
 ## Configs
 ### Must have changes after forking
