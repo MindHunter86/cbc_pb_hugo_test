@@ -1,5 +1,15 @@
 # HOWTO: You first blog
 
+## Step - by - step
+1. Fork me!
+2. Go to github.com/yourname/yourrepo/`actions` -> Press button "I Understand"
+3. Go to settings -> Pages -> Source -> Github Actions
+4. Make changes in configs wrote below
+5. Go to github.com/yourname/yourrepo/`actions` -> check you last `run`
+6. In last run or in main page of your repo (in aside block) find link to you new blog
+7. OR go to `yourname`.github.com/`yourrepo`/
+
+## Configs
 ### Must have changes after forking
 #### hugo.yaml
 ```
