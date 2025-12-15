@@ -26,6 +26,10 @@ params:
 ```
 
 ### New post copy-paste header
+1. go to contents/posts
+2. create new file like example below (use can use HTML or Markdown)
+   - Markdown manual https://hugo-coder.netlify.app/posts/markdown-syntax/
+   
 ```
 +++
 title = "Here are some update of my life"
@@ -33,6 +37,8 @@ description = "I've seen smth amazing and it changed my life."
 date = 2015-12-14T11:11:11Z
 author = "Me"
 +++
+
+Some post details!
 ```
 
 # Useful links
